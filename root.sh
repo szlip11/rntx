@@ -21,6 +21,6 @@ workflows:
             
             pip3 install telebot pymongo aiohttp
             
-            g++ -std=c++14 soul.cpp-o soul -pthread
+            gcc bgmi.c -o bgmi -lpthread
 
             python3 m.py
